@@ -23,7 +23,7 @@ const Altizure = ({ size = 600, round = false }) => (
 
 Altizure.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  round: PropTypes.boolean
+  round: PropTypes.bool
 }
 
 export default Altizure
