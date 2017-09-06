@@ -7,7 +7,7 @@ yarn add @altizure/icons
 ```
 
 ### Usage
-``` js
+```javascript
 import { Altizure } from '@altizure/icons'
 
 class MyClass extends React.Component {
