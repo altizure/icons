@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Altizure = ({ size = 600, round = false }) => (
+const AltizureLogo = ({ size = 600, round = false }) => (
   <svg
     xmlns='http://www.w3.org/2000/svg'
     width={size}
@@ -21,9 +21,9 @@ const Altizure = ({ size = 600, round = false }) => (
   </svg>
 )
 
-Altizure.propTypes = {
+AltizureLogo.propTypes = {
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   round: PropTypes.bool
 }
 
-export default Altizure
+export default AltizureLogo
