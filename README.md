@@ -8,16 +8,16 @@ yarn add @altizure/icons
 
 ### Usage
 ```javascript
-import { Altizure } from '@altizure/icons'
+import { AltizureLogo } from '@altizure/icons'
 
 class MyClass extends React.Component {
   render() {
-    return <Altizure />
+    return <AltizureLogo />
   }
 }
 ```
 
 Icons can be configured with inline props:
 ```javascript
-<Altizure size={64} round />
+<AltizureLogo size={64} round />
 ```
