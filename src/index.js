@@ -1,1 +1,1 @@
-export Altizure from './icons/altizure'
+export AltizureLogo from './icons/altizurelogo'
