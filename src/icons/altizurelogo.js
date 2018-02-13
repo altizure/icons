@@ -13,8 +13,8 @@ const AltizureLogo = ({ size = 600, round = false, bg = '#323232' }) => (
         gradientUnits='userSpaceOnUse'
         x1='387.821' y1='390.0587' x2='473.402' y2='390.3572'
         gradientTransform='matrix(1,0,0,-1,0,768)'>
-        <stop offset='0' style={{ 'stop-color': '#ffffff' }} />
-        <stop offset='1' style={{ 'stop-color': '#ffffff', 'stop-opacity': 0 }} />
+        <stop offset='0' stopColor='#ffffff' />
+        <stop offset='1' stopColor='#ffffff' stopOpacity={0} />
       </linearGradient>
     </defs>
     {bg &&
